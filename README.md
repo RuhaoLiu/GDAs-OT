@@ -1,11 +1,12 @@
 # Code for "GDAs-OT:  Prediction Method of Gene-Disease Associations Based on Optimal Transport for Identifying Genes Related to Immune-Related Adverse Events"
 
-Authors: Anonymous
+Authors: Ruhao Liu, Suixue Wang, Hang Yu, Peng Li, Qingchen Zhang.
+If you have any questions, please contact Ruhao Liu (lrh@hainanu.edu.cn) or Qingchen Zhang (zhangqingchen@hainanu.edu.cn).
 
 This directory contains implementations of GDAs-OT framework.
 
 ## Prepare material
-You need to manually download the biomedical pre-trained language model PubMedBERT and place it in the main directory of GDAs-OT. In addition, a dedicated conda environment needs to be created before running the code.
+You need to manually download the biomedical pre-trained language model PubMedBERT (https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext) and place it in the main directory of GDAs-OT. In addition, a dedicated conda environment needs to be created before running the code.
 
 ```shell
 $ conda create -n GDAs-OT python=3.9
